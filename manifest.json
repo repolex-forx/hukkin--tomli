@@ -5382,6 +5382,24 @@
         "blob/0a1a684345a50424cf2155932a2207bde59f3aca.nq.gz",
         "blob/ee5d8025668d2cab4d697f8c72c21bb4c34ea7ac.nq.gz",
         "blob/99cbcbc781713033d2a387c9858783c4761ecd46.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/345bd2a224f215fbb33546b6d7e358307b783793.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/345bd2a224f215fbb33546b6d7e358307b783793.nq.gz",
+      "repolex": "aggregate/repolex/345bd2a224f215fbb33546b6d7e358307b783793.nq.gz",
+      "dep": "dep/345bd2a224f215fbb33546b6d7e358307b783793.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest"
+        },
+        {
+          "packageName": "tomli",
+          "githubOrg": "hukkin",
+          "githubRepo": "tomli"
+        }
       ]
     }
   ],
