@@ -10304,6 +10304,19 @@
         "blob/0a1a684345a50424cf2155932a2207bde59f3aca.nq.gz",
         "blob/ee5d8025668d2cab4d697f8c72c21bb4c34ea7ac.nq.gz",
         "blob/99cbcbc781713033d2a387c9858783c4761ecd46.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/73c3d102eb81fe0d2b87f905df4f740f8878d8da.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/73c3d102eb81fe0d2b87f905df4f740f8878d8da.nq.gz",
+      "repolex": "aggregate/repolex/73c3d102eb81fe0d2b87f905df4f740f8878d8da.nq.gz",
+      "dep": "dep/73c3d102eb81fe0d2b87f905df4f740f8878d8da.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tomli-w",
+          "githubOrg": "hukkin",
+          "githubRepo": "tomli-w"
+        }
       ]
     }
   ],
