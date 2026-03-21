@@ -12039,8 +12039,10 @@
       "dependencies": [
         {
           "packageName": "tomli-w",
+          "packageVersion": "1.2.0",
           "githubOrg": "hukkin",
-          "githubRepo": "tomli-w"
+          "githubRepo": "tomli-w",
+          "githubCommit": "a8f80172ba16fe694e37f6e07e6352ecee384c58"
         }
       ]
     },
