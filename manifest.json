@@ -6894,14 +6894,18 @@
       "dep": "dep/345bd2a224f215fbb33546b6d7e358307b783793.nq.gz",
       "dependencies": [
         {
-          "packageName": "pytest",
-          "githubOrg": "pytest-dev",
-          "githubRepo": "pytest"
+          "packageName": "tomli",
+          "packageVersion": "2.4.0",
+          "githubOrg": "hukkin",
+          "githubRepo": "tomli",
+          "githubCommit": "a678e6fdeffa89bd28e4ecc148b926a4e1bbbc7b"
         },
         {
-          "packageName": "tomli",
-          "githubOrg": "hukkin",
-          "githubRepo": "tomli"
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
         }
       ]
     },
