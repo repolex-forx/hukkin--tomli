@@ -16059,6 +16059,63 @@
         "blob/0a1a684345a50424cf2155932a2207bde59f3aca.nq.gz",
         "blob/ee5d8025668d2cab4d697f8c72c21bb4c34ea7ac.nq.gz",
         "blob/99cbcbc781713033d2a387c9858783c4761ecd46.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/7c9c5ee01ba19eecc333aa05d3191df9a5db8d1a.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/7c9c5ee01ba19eecc333aa05d3191df9a5db8d1a.nq.gz",
+      "repolex": "aggregate/repolex/7c9c5ee01ba19eecc333aa05d3191df9a5db8d1a.nq.gz",
+      "dep": "dep/7c9c5ee01ba19eecc333aa05d3191df9a5db8d1a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tomli",
+          "packageVersion": "2.4.0",
+          "githubOrg": "hukkin",
+          "githubRepo": "tomli",
+          "githubCommit": "a678e6fdeffa89bd28e4ecc148b926a4e1bbbc7b"
+        },
+        {
+          "packageName": "qtoml",
+          "packageVersion": "0.3.1",
+          "githubOrg": "alethiophile",
+          "githubRepo": "qtoml",
+          "githubCommit": "ed150abae170d7faa5bbf321d8e0b23129fcfe19"
+        },
+        {
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+        },
+        {
+          "packageName": "toml",
+          "packageVersion": "0.9.6",
+          "githubOrg": "uiri",
+          "githubRepo": "toml",
+          "githubCommit": "d31df32683212274a83e79736c143cc388796b49"
+        },
+        {
+          "packageName": "tomlkit",
+          "packageVersion": "0.9.2",
+          "githubOrg": "sdispater",
+          "githubRepo": "tomlkit",
+          "githubCommit": "1c22797bc5227c6e9eb9c82ccfeb8ea52294a813"
+        },
+        {
+          "packageName": "pytomlpp",
+          "packageVersion": "1.1.0",
+          "githubOrg": "bobfang1992",
+          "githubRepo": "pytomlpp",
+          "githubCommit": "8d8d055ef9f3061d49aac4e6c5a7647dbed8d69f"
+        },
+        {
+          "packageName": "rtoml",
+          "packageVersion": "0.9.0",
+          "githubOrg": "samuelcolvin",
+          "githubRepo": "rtoml",
+          "githubCommit": "HEAD"
+        }
       ]
     }
   ],
