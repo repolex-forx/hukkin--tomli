@@ -1,0 +1,18 @@
+[2026-04-08T10:28:46Z] === ENRICH ITERATION 2 START | repo=hukkin/tomli sha=a678e6fd ===
+[2026-04-08T10:28:46Z] [iter=2] PHASE START: enrich repo=hukkin/tomli sha=a678e6fd runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a678e6fd-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a678e6fdeffa89bd28e4ecc148b926a4e1bbbc7b.nq.gz
+[2026-04-08T10:28:46Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-04-08T10:28:47Z] [iter=2] AST store loaded triples=64695 load_secs=0 mem_mb=173 MB
+[2026-04-08T10:28:47Z] [iter=2] Step 2: Finding LSP targets mem_mb=173 MB
+[2026-04-08T10:28:47Z] [iter=2] LSP targets found call_sites=457 imports=49 extends=1 implements=0 secs=0
+[2026-04-08T10:28:47Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=173 MB
+[2026-04-08T10:28:47Z] [iter=2] Position index built positions=4414 nodes_with_types=5739 secs=0 mem_mb=173 MB
+[2026-04-08T10:28:47Z] [iter=2] Step 3: Starting LSP resolution mem_mb=173 MB already_completed_types=[] already_completed_files=0
+[2026-04-08T10:28:47Z] [iter=2] Resolving target type target_type=call_site count=457
+[2026-04-08T10:28:57Z] [iter=2] Target type resolved target_type=call_site resolved=160 errors=254 secs=10 mem_mb=173 MB
+[2026-04-08T10:28:57Z] [iter=2] Resolving target type target_type=import_statement count=49
+[2026-04-08T10:28:59Z] [iter=2] Target type resolved target_type=import_statement resolved=37 errors=0 secs=1 mem_mb=173 MB
+[2026-04-08T10:28:59Z] [iter=2] Resolving target type target_type=extends_clause count=1
+[2026-04-08T10:29:00Z] [iter=2] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=1 mem_mb=173 MB
+[2026-04-08T10:29:02Z] [iter=2] Step 5: Writing final enrichment file triples=4428
+[2026-04-08T10:29:02Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a678e6fdeffa89bd28e4ecc148b926a4e1bbbc7b.nq.gz size_kb=70
+[2026-04-08T10:29:02Z] [iter=2] PHASE END: enrich elapsed_s=16 elapsed_min=0.3 total_triples=4428
