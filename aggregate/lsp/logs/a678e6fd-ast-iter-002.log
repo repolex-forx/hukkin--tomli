@@ -1,0 +1,6 @@
+[2026-04-08T10:20:37Z] === AST ITERATION 2 START | repo=hukkin/tomli sha=a678e6fd ===
+[2026-04-08T10:20:37Z] [iter=2] PHASE START: ast repo=hukkin/tomli sha=a678e6fd
+[2026-04-08T10:20:37Z] [iter=2] AST SKIPPED — chunks already exist count=1 dir=/home/runner/work/forx/forx/storage/aggregate/ast/a678e6fdeffa89bd28e4ecc148b926a4e1bbbc7b
+[2026-04-08T10:20:37Z] [iter=2] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/a678e6fdeffa89bd28e4ecc148b926a4e1bbbc7b/.complete
+[2026-04-08T10:20:37Z] [iter=2] PHASE END: ast elapsed_s=0 elapsed_min=0.0
+[2026-04-08T10:20:37Z] [iter=2] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
